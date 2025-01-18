@@ -1,0 +1,66 @@
+.Myblog{ 
+    display: flex;
+    font-style: italic;
+    background-color: #CFCDA3;
+    margin: 10px;
+}
+.Myblog img{
+    display: flex;
+    border: 10px blue;
+    border-radius: 5px;
+}
+.Myblog p{
+    padding: 0.5px;
+    font-family: Fantasy;
+    font-size: 13;
+}
+
+.Myblog1{ 
+    display: flex;
+    font-style: italic;
+    background-color: white;
+    margin: 10px;
+}
+.Myblog1 img{
+    display: flex;
+    border: 10px blue;
+    border-radius: 5px;
+}
+.Myblog1 p{
+    padding: 0.5px;
+    font-family: Fantasy;
+    font-size: 13;
+}
+
+.Post{
+    font-style: italic;
+    font-weight: 900;
+    border: 8px solid white;
+    filter: drop-shadow(1px 1px 0 white);
+}
+.Post img{
+    display: flex;
+    border: 10px blue;
+    border-radius: 5px;
+}
+.Post .Post1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Post h2{
+    padding: 0.5px;
+    font-family: Fantasy;
+    text-size: 15;
+}
+.Post p{
+    padding: 0.5px;
+    font-family: Fantasy;
+    font-size: 13;
+}
+.Background{
+    image-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://pm1.aminoapps.com/9196/810f8ca41f7020771918a36f2c54be94497b73bfr1-736-1308v2_hq.jpg");
+    opacity: 0.5;
+}
